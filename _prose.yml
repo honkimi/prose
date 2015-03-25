@@ -1,10 +1,10 @@
-baseurl: /prose
-url: https://honkimi.github.io
+baseurl: /
+url: http://prose.soratabi.link
 media: 'uploads'
 
 prose:
-  rooturl: '/prose'
-  siteurl: "https://honkimi.github.io/prose"
+  rooturl: '/'
+  siteurl: "http://prose.soratabi.link"
   media: 'uploads'
   ignore:
     - index.md
