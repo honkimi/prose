@@ -1,2 +1,6 @@
 baseurl: /prose
-media: 'img'
+url: https://honkimi.github.io
+
+prose:
+  siteurl: "https://honkimi.github.io/prose"
+  media: "images"
