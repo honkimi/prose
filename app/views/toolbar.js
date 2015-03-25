@@ -26,6 +26,7 @@ module.exports = Backbone.View.extend({
     var config = options.config;
 
     if (config) {
+      console.log(config);
       this.hasMedia = (config.media) ? true : false;
       this.siteUrl = (config.siteUrl) ? true : false;
 
