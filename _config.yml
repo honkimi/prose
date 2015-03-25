@@ -1,6 +1,6 @@
 baseurl: /prose
 url: https://honkimi.github.io
+media: "images"
 
 prose:
   siteurl: "https://honkimi.github.io/prose"
-  media: "images"
