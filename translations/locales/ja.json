@@ -113,7 +113,7 @@
             "delete": "このファイルを削除"
         },
         "new": {
-            "body": "## 新規投稿.\n\n [Markdown](http://qiita.com/Id_Seth/items/b684cfabe0f2fde0c67b)で記載してください。\nもしくは上部のツールバーをご利用ください。\n"
+            "body": "## 新規投稿.\n\n [Markdown](http://qiita.com/Id_Seth/items/b684cfabe0f2fde0c67b)で記載してください。\nもしくは上部のツールバーをご利用ください。\n\n画像は文中にドラッグアンドドロップで挿入できます。**画像名に日本語を含めないでください**"
         },
         "file": {
             "noTitle": "無題",
