@@ -1,6 +1,15 @@
 baseurl: /prose
 url: https://honkimi.github.io
-media: "images"
+media: "img"
 
 prose:
   siteurl: "https://honkimi.github.io/prose"
+  media: "img"
+
+metadata:
+  _posts:
+    - name: "title"
+      field:
+        element: "text"
+        label: "title"
+
