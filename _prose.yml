@@ -1,11 +1,10 @@
 baseurl: /prose
 url: https://honkimi.github.io
+media: 'media'
 
 prose:
-  rooturl: '_posts'
-  siteurl: ''
+  rooturl: '/prose'
   siteurl: "https://honkimi.github.io/prose"
-  relativeLinks: 'http://prose.github.io/starter/links.jsonp'
   media: 'media'
   ignore:
     - index.md
