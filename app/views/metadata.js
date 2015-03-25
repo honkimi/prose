@@ -30,7 +30,7 @@ module.exports = Backbone.View.extend({
     var form = this.$el.find('.form');
 
     var metadata = this.model.get('metadata');
-    var lang = metadata && metadata.lang ? metadata.lang : 'en';
+    var lang = metadata && metadata.lang ? metadata.lang : 'ja';
 
     // This renders any fields defined in the metadata entry
     // of a given prose configuration file.
@@ -496,7 +496,7 @@ module.exports = Backbone.View.extend({
             label: key,
             placeholder: key,
             options: value,
-            lang: data.lang || 'en'
+            lang: data.lang || 'ja'
           };
 
           form.append(_.template(templates.meta.multiselect, obj, {

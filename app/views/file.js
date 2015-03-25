@@ -1058,10 +1058,10 @@ module.exports = Backbone.View.extend({
     var url;
 
     // TODO: Drop the 'en' requirement.
-    if (lang === 'en') {
+    if (lang === 'ja') {
       // If current page is not english and target page is english
       path.splice(-2, 2, path[path.length - 1]);
-    } else if (metadata.lang === 'en') {
+    } else if (metadata.lang === 'ja') {
       // If current page is english and target page is not english
       path.splice(-1, 1, lang, path[path.length - 1]);
     } else {

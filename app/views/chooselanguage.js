@@ -34,7 +34,7 @@ module.exports = Backbone.View.extend({
       // Check if the browsers language is supported
       app.locale = code;
 
-      if (app.locale && app.locale !== 'en') {
+      if (app.locale && app.locale !== 'ja') {
           $.getJSON('./translations/locales/' + app.locale + '.json', function(result) {
               window.locale[app.locale] = result;
               window.locale.current(app.locale);
