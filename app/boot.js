@@ -1,9 +1,9 @@
 var LOCALES = require('../translations/locales');
-var en = require('../dist/en.js');
+var ja = require('../dist/ja.js');
 
 // Set locale as global variable
-window.locale.en = en;
-window.locale.current('en');
+window.locale.ja = ja;
+window.locale.current('ja');
 window.app = {};
 
 var $ = require('jquery-browserify');
@@ -26,7 +26,7 @@ var setLanguage = (cookie.get('lang')) ? true : false;
 // Check if the browsers language is supported
 if (setLanguage) app.locale = cookie.get('lang');
 
-if (app.locale && app.locale !== 'en') {
+if (app.locale && app.locale !== 'ja') {
   $.getJSON('./translations/locales/' + app.locale + '.json', function(result) {
     window.locale[app.locale] = result;
     window.locale.current(app.locale);
