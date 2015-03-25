@@ -5,3 +5,4 @@ transifex.auth
 test/lib/index.js
 test/lib/polyfill.js
 _site/
+oauth.json
