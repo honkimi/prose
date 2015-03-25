@@ -1,0 +1,6 @@
+{
+  "api": "https://api.github.com",
+  "site": "https://github.com",
+  "clientId": "db667dbc1c10a2058a9c",
+  "gatekeeperUrl": "https://honkimi-prosegatekeeper.herokuapp.com"
+}
