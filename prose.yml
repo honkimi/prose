@@ -1,11 +1,9 @@
 baseurl: /
 url: http://prose.soratabi.link
-media: 'uploads'
 
 prose:
   rooturl: '/'
   siteurl: "http://prose.soratabi.link"
-  media: 'uploads'
   ignore:
     - index.md
     - _config.yml
