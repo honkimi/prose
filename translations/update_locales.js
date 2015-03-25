@@ -76,7 +76,7 @@ function getLanguages(resource, callback) {
               code: code
             }
         }).filter(function(d) {
-            return d !== 'en';
+            return d !== 'ja';
         }));
     });
 }

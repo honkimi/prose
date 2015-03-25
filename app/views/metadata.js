@@ -90,7 +90,7 @@ module.exports = Backbone.View.extend({
               var textarea = {
                 name: data.name,
                 id: id,
-                value: data.field.value,
+                value: data.field.value || "---\n\n---",
                 label: data.field.label,
                 help: data.field.help,
                 placeholder: data.field.placeholder,
