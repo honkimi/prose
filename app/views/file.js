@@ -1289,7 +1289,7 @@ module.exports = Backbone.View.extend({
 
     // Default to media directory if defined in config,
     // current directory if no path specified
-    var dir = "assets"; // this.config.media ? this.config.media : util.extractFilename(this.model.get('path'))[0];
+    var dir =  this.config.media ? this.config.media : util.extractFilename(this.model.get('path'))[0];
     path = path || _.compact([dir, file.name]).join('/');
 
     this.collection.upload(file, content, path, {
