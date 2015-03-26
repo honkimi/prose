@@ -99,6 +99,7 @@ module.exports = Backbone.Collection.extend({
       }
 
       if (config.prose.metadata) {
+        console.log("parsing metaadata");
         var metadata = config.prose.metadata;
 
         // Serial queue to not break global scope JSONP callbacks
@@ -192,12 +193,14 @@ module.exports = Backbone.Collection.extend({
           this.findWhere({ path: '_config.yml' });
 
         if (config) {
+          console.log("success load config")
           config.fetch({
             success: (function() {
               this.parseConfig(config, { success: success, args: args });
             }).bind(this)
           });
         } else {
+          console.log("failed load config")
           if (_.isFunction(success)) success.apply(this, args);
         }
 

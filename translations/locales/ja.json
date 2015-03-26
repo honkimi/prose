@@ -41,7 +41,7 @@
         },
         "publishing": {
             "publish": "公開",
-            "publishInfo": "湖の投稿は次に保存したタイミングで公開されます。",
+            "publishInfo": "この投稿は次に保存したタイミングで公開されます。",
             "published": "公開済み",
             "unpublish": "非公開",
             "unpublished": "非公開済み",
