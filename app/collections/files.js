@@ -85,6 +85,8 @@ module.exports = Backbone.Collection.extend({
       console.log(err);
     }
 
+    console.log(config);
+    console.log("parsing metaadata");
     if (config && config.prose) {
       // Load _config.yml, set parsed value on collection
       // Extend to capture settings from outside config.prose
@@ -99,7 +101,6 @@ module.exports = Backbone.Collection.extend({
       }
 
       if (config.prose.metadata) {
-        console.log("parsing metaadata");
         var metadata = config.prose.metadata;
 
         // Serial queue to not break global scope JSONP callbacks
@@ -200,7 +201,6 @@ module.exports = Backbone.Collection.extend({
             }).bind(this)
           });
         } else {
-          console.log("failed load config")
           if (_.isFunction(success)) success.apply(this, args);
         }
 
