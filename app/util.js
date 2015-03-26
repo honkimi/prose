@@ -27,7 +27,7 @@ module.exports = {
     var regex = /\//;
     if (!regex.test(path)) return ['', path];
     var matches = path.match(/(.*)\/(.*)$/);
-    if(matches.length < 2) return ['', path];
+    if(matches == null || matches.length < 2) return ['', path];
     return [matches[1], matches[2]];
   },
 
